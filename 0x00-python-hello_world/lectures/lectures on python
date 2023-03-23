@@ -1,0 +1,119 @@
+# Myage = 42
+# Myname = "will"
+# print (Myname)
+# print (Myage)
+# print (str(Myage) + Myname)
+
+# print (Myage + Myage)
+
+# print("i am " + Myname + ", i will be " + str(Myage) +" in 20yrs time")
+
+# print(f"i am {Myname}, I will be {Myage} in 20yrs time ")
+
+
+
+# Write a code to welcome a user and telling the user age 
+
+# print(f"Hello {username}, are you {age} yrs old?")
+
+# print(f" what is your name {username} how old are you {age}")
+
+# username = input("Enter your Name: ")
+# age = input("Enter your age: ")
+# print(f'It is good to meet you, {age} yrs {username} ')
+
+# username = input("Enter your User Name: ")
+# password = input("Enter Your Password: ")
+# correctPassword = 'root12345'
+
+
+# if (len(password) < 8):
+#     print("Sorry Dwag your password should be more 8 Char long")
+# elif (password == correctPassword):
+#     print(f"Welcome {username} you look good today")
+# else:
+#     print("Incorrect Password!!!!")
+
+##################################################################################################
+
+# write a program that collect user informations
+# 1. UserName
+# 2. passWord
+# 3. Age
+# Your program should check if the user input the correct password of "Password1234"
+# the user age must be above 18
+# if the user in put correct info. print the user info with greetings
+
+# username = input("Enter Username only :")
+# Age = int(input("Age :"))
+# Password = input("Enter your password :")
+# correctpassword = '123456'
+
+# if Age > 18:
+#     if (Password == correctpassword):
+#         print("Access Granted")
+#         print(f"Welcome {username}")
+    
+# elif Age < 18:
+#     print(f"You must be atleast 18 to use this app, so wait kid till you are 18 years old")   
+
+# else:
+#     print("Incorrect Password!!!")    
+    
+    
+
+# username = input("Please enter your username: ")
+# password = input("Please enter your password: ")
+# age = int(input("Please enter your age: "))
+
+# # Check password and age requirements
+# if password == "1234" and age > 18:
+#     # Print out user information with greetings
+#     print("Welcome, " + username + "!")
+#     print("Your password and age have been verified.")
+#     print("Here is your information:")
+#     print("Username: " + username)
+#     print("Age: " + str(age))
+    
+# # print error message "age is incorrect" if age is less than 18   
+# elif password == "1234" and age < 18: 
+#     print(f"age is incorrect") 
+# # print error message "password does not match" if password is incorrect    
+# elif password != "1234" and age > 18:
+#     print (f"password does not match")
+# else:
+#     # Print error message if password or age requirements not met
+#      print("Sorry, your password or age is incorrect.")
+            
+
+# print("I am ' + 49 + ' years old.")
+
+# spam = input("Enter a number: ")
+
+# number = int(spam)
+
+# print( int(spam)  + 18 // 2)
+
+# myage = input("What is your age? ")
+# print(f"You will be { int(myage) + 1 } next year")
+# print("spam" * 3)
+# print("spam" + "spamspam")
+
+# print('I have eaten ' + str(99) + ' burritos.')
+# print(round(10.85435464))
+
+rain = True
+
+if (rain):
+   Um = input("Do you have UM? ")
+   if (Um == "yes"):
+       print("You can go Outisde")
+   elif(Um != "yes"):
+      while rain: 
+           print("wait")
+           con = input("Is it Still Raining? ")
+           if con == "no":
+               rain = False
+print("you can go outside")
+
+    
